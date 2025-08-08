@@ -9,7 +9,7 @@ const Home = () => {
     { text: "Bienvenue chez AEBM LAÂYOUNE", language: "Français" },
     { text: "Welcome to AEBM LAÂYOUNE", language: "English" },
     { text: "Awdansê anou fê AEBM LAÂYOUNE", language: "Dioula" },
-    { text: "Ne waogo, ka yaa AEBM LAÂYOUNE zinga", language: "Mooré" }
+    { text: "Ne waogo, ka yaa AEBM LAÂYOUNE site wèbé", language: "Mooré" }
   ];
 
   useEffect(() => {
