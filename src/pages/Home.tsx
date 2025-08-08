@@ -167,20 +167,20 @@ const Home = () => {
           <p className="text-lg text-gray-700 mb-8">
             Vidéo/Image de la première rencontre des membres fondateurs de l'AEBM LAÂYOUNE
           </p>
-          <iframe 
+          {/* <iframe 
             className="w-full h-[400px] md:h-[500px] rounded-lg shadow-lg"
             src="https://drive.google.com/file/d/157DnVTYk1X4HOYftwUsU9OLnKHnPJdHI/preview" //https://drive.google.com/file/d/157DnVTYk1X4HOYftwUsU9OLnKHnPJdHI/view?usp=drive_link 
             title="Fondateurs de l'AEBM LAÂYOUNE"
             allowFullScreen
-          ></iframe>
+          ></iframe> */}
 
           <p className="text-lg text-gray-700 mt-4">
             <strong>Image des membres fondateurs :</strong>
           </p>
           <iframe
             src="https://drive.google.com/file/d/1ou8CHsIKuJuspBO580WtKdQ-QO2VkTsA/preview"
-            width="600"
-            height="400"
+            // width="600"
+            // height="400"
             // frameBorder="0"
             allow="autoplay; encrypted-media"
             allowFullScreen
