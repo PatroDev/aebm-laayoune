@@ -142,15 +142,10 @@ const Bureau = () => {
               <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center">
                 Le nouveau bureau de l'AEBM Laâyoune est composé de membres dynamiques et engagés, prêts à relever les défis de l'année académique 2024-2025.
               </p>
-              <iframe
-                src="https://drive.google.com/file/d/1ou8CHsIKuJuspBO580WtKdQ-QO2VkTsA/preview" //https://drive.google.com/file/d/1ou8CHsIKuJuspBO580WtKdQ-QO2VkTsA/view?usp=drive_link
-                // width="600"
-                // height="400"
-                // frameBorder="0"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                title="Nouveau Bureau AEBM Laâyoune"
-                className='w-full object-cover rounded-lg shadow-lg mb-8'
+              <img
+                src="/Bureau.png" //https://drive.google.com/file/d/1ou8CHsIKuJuspBO580WtKdQ-QO2VkTsA/view?usp=drive_link
+                alt="Nouveau Bureau AEBM Laâyoune"
+                className="w-full object-cover rounded-lg shadow-lg mb-8"
               />
               <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center">
                 Ce bureau est composé de membres passionnés par le développement des communautés étudiantes et engagés à renforcer les liens entre les membres. Ils travaillent ensemble pour organiser des événements culturels, sportifs et académiques, tout en veillant à la transparence et à la fiabilité des états financiers de l'association.

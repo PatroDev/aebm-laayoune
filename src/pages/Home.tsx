@@ -184,9 +184,15 @@ const Home = () => {
             // frameBorder="0"
             allow="autoplay; encrypted-media"
             allowFullScreen
-            title="Nouveau Bureau AEBM Laâyoune"
+            title="Bureau AEBM Laâyoune"
+            className="w-full object-cover rounded-lg shadow-lg mb-8"
           />
 
+          {/* <img
+            src="/Bureau.png" //https://drive.google.com/file/d/1ou8CHsIKuJuspBO580WtKdQ-QO2VkTsA/view?usp=drive_link
+            alt="Nouveau Bureau AEBM Laâyoune"
+            className="w-full object-cover rounded-lg shadow-lg mb-8"
+          /> */}
         </div>
       </section>
 
