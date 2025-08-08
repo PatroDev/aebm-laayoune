@@ -143,7 +143,7 @@ const Bureau = () => {
                 Le nouveau bureau de l'AEBM Laâyoune est composé de membres dynamiques et engagés, prêts à relever les défis de l'année académique 2024-2025.
               </p>
               <img
-                src="/Bureau.png"
+                src="https://drive.google.com/file/d/1ou8CHsIKuJuspBO580WtKdQ-QO2VkTsA/preview" //https://drive.google.com/file/d/1ou8CHsIKuJuspBO580WtKdQ-QO2VkTsA/view?usp=drive_link
                 alt="Nouveau Bureau AEBM Laâyoune"
                 className="w-full object-cover rounded-lg shadow-lg mb-8"
               />

@@ -158,6 +158,28 @@ const Home = () => {
             allowFullScreen
           ></iframe>
         </div>
+
+        {/* Les 1ers arrivés */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-10 border-t border-gray-200 pt-10">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            Les initiateurs de L'AEBM LAÂYOUNE
+          </h2>
+          <p className="text-lg text-gray-700 mb-8">
+            Vidéo/Image de la première rencontre des membres fondateurs de l'AEBM LAÂYOUNE
+          </p>
+          <iframe 
+            className="w-full h-[400px] md:h-[500px] rounded-lg shadow-lg"
+            src="#" //https://drive.google.com/file/d/157DnVTYk1X4HOYftwUsU9OLnKHnPJdHI/view?usp=drive_link 
+            title="Fondateurs de l'AEBM LAÂYOUNE"
+            allowFullScreen
+          ></iframe>
+          
+            {/* <img
+              src="/Bureau2022.png"
+              alt="Bureau AEBM Laâyoune 2022-2023"
+              className="w-full h-64 object-cover rounded-lg shadow-lg mb-8"
+            /> */}
+        </div>
       </section>
 
       {/* Nos activités preview */}

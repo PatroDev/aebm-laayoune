@@ -10,7 +10,8 @@ const Activities = () => {
       icon: Users,
       color: "green",
       frequency: "Chaque premier samedi du mois",
-      location: "Centre culturel de Laâyoune"
+      location: "Centre culturel de Laâyoune",
+      image: "#" 
     },
     {
       title: "Célébrations des fêtes nationales",
