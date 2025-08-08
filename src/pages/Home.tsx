@@ -169,7 +169,7 @@ const Home = () => {
           </p>
           <iframe 
             className="w-full h-[400px] md:h-[500px] rounded-lg shadow-lg"
-            src="#" //https://drive.google.com/file/d/157DnVTYk1X4HOYftwUsU9OLnKHnPJdHI/view?usp=drive_link 
+            src="/Bureau2022.mp4" //https://drive.google.com/file/d/157DnVTYk1X4HOYftwUsU9OLnKHnPJdHI/view?usp=drive_link 
             title="Fondateurs de l'AEBM LAÂYOUNE"
             allowFullScreen
           ></iframe>
