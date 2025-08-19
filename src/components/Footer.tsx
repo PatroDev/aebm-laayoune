@@ -73,6 +73,28 @@ const Footer = () => {
               </button>
             </div>
           </a>
+
+          {/* Vidéo de démo */}
+          <a
+            href="https://drive.google.com/file/d/1GopESWi3u1dalZ_CiHQEr9BSAe8k1Jc8/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center p-6 rounded-2xl bg-white shadow-lg hover:shadow-xl hover:scale-105 transition transform"
+          >
+            <div>
+              <h3 className="text-xl font-semibold text-purple-700 mb-2">
+                🎬 Vidéo Démo
+              </h3>
+              <p className="text-gray-500 mb-4">
+                Regardez la démonstration complète de la plateforme AEBM Laayoune.
+              </p>
+              <button 
+                className="inline-flex items-center bg-purple-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-purple-700"
+              >
+                👁️ Voir la vidéo
+              </button>
+            </div>
+          </a>
         </div>
       </div>
     </section>

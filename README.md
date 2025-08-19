@@ -2,6 +2,7 @@
 
 > 📅 Generated on: 8/19/2025, 12:15:14 PM  
 > 🔗 Dépôt officiel : [https://github.com/PatroDev/aebm-laayoune](https://github.com/PatroDev/aebm-laayoune)  
+> 🔗 Démo et Présentation : [Voir le démo](https://drive.google.com/file/d/1GopESWi3u1dalZ_CiHQEr9BSAe8k1Jc8/view?usp=sharing)  
 
 ---
 
