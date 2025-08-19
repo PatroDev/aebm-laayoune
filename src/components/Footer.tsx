@@ -30,7 +30,15 @@ const Footer = () => {
               <p className="text-gray-500 mb-4">
                 Découvrez le but, les objectifs et comment tirer parti du site.
               </p>
-              <button className="inline-flex items-center bg-indigo-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-indigo-700">
+              <button onClick={() => {
+                      const link = document.createElement('a');
+                      link.href = '/AEBM_Laayoune_Guide_Etudiants.pdf'; // chemin relatif depuis le dossier public
+                      link.download = 'AEBM_Laayoune_Guide_Etudiants.pdf'; // nom du fichier lors du téléchargement
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                    }} 
+                    className="inline-flex items-center bg-indigo-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-indigo-700">
                 <Download className="w-5 h-5 mr-2" />
                 Télécharger
               </button>
@@ -51,7 +59,15 @@ const Footer = () => {
               <p className="text-gray-500 mb-4">
                 Instructions pour contribuer au projet et installer localement.
               </p>
-              <button className="inline-flex items-center bg-green-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-green-700">
+              <button onClick={() => {
+                      const link = document.createElement('a');
+                      link.href = '/AEBM_Laayoune_Guide_Developpeurs.pdf'; // chemin relatif depuis le dossier public
+                      link.download = 'AEBM_Laayoune_Guide_Developpeurs.pdf'; // nom du fichier lors du téléchargement
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                    }} 
+                    className="inline-flex items-center bg-green-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-green-700">
                 <Download className="w-5 h-5 mr-2" />
                 Télécharger
               </button>
