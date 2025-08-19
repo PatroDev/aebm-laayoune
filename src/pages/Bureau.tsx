@@ -187,7 +187,7 @@ const Bureau = () => {
               <img
                 src="/Bureau2022.png"
                 alt="Bureau AEBM Laâyoune 2022-2023"
-                className="w-full h-64 object-cover rounded-lg shadow-lg mb-8"
+                className="w-full object-cover rounded-lg shadow-lg mb-8"
               />
               <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center">
                 Ce bureau a été à l'origine de nombreuses initiatives visant à rassembler les étudiants burkinabè, à promouvoir la culture et à organiser des événements mémorables. Leur vision et leur leadership ont permis de créer un environnement accueillant pour tous les membres.

@@ -4,53 +4,56 @@ import { Quote, Star } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Rabiatou Traoré",
-      role: "Étudiante en économie",
-      university: "Université Ibn Tofail",
-      content: "Grâce à l'AEBM-LAÂYOUNE, j'ai trouvé un logement rapidement et rencontré des amis qui m'ont aidé à m'adapter à mon nouvel environnement. La solidarité entre membres est exceptionnelle.",
+      name: "SINON SANATA",
+      role: "Licence en Technologie de Radiologie médicale",
+      university: "Institut Supérieur des Professions Infirmières et Techniques de Santé (ISPITS) Laâyoune | 2021 - 2024",
+      content: "Étudiante burkinabè pionnière à Laâyoune, Sanata fait partie de la toute première génération. Son parcours académique en radiologie médicale illustre à la fois son engagement envers l’excellence scientifique et son ambition de contribuer activement au développement de la santé au Burkina Faso et au-delà. Son intégration réussie à l’ISPITS Laâyoune et la collaboration avec les autres pionniers Burkinabès pour la création de l'AEBM-Laâyoune témoigne de sa détermination, de son adaptabilité et de son rôle inspirant pour les futures promotions.",
       rating: 5,
-      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+      image: "/Sanata.png"
+      // image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
     },
     {
-      name: "Ouattara Adama",
-      role: "Étudiant en master",
-      university: "ENSA Laâyoune",
-      content: "Les ateliers pratiques m'ont beaucoup aidé pour mes démarches administratives. Je recommande vivement cette association ! L'accompagnement est personnalisé et efficace.",
+      name: "COULIBALY A. Aziz",
+      role: "Licence en Laboratoire médical",
+      university: "Institut Supérieur des Professions Infirmières et Techniques de Santé (ISPITS) Laâyoune | 2021 - 2024",
+      content: "",
       rating: 5,
-      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+      image: "/Aziz_.png"
+      // image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
     },
     {
-      name: "Aurélie Kaboré",
-      role: "Étudiante en master",
-      university: "ENSA Laâyoune",
-      content: "Rejoindre l'AEBM-LAÂYOUNE a été une expérience incroyable qui a transformé mon parcours d'étudiant au Maroc. Dès mon arrivée, j'ai trouvé une communauté bienveillante qui m'a aidé à m'intégrer, que ce soit sur le plan académique, social ou administratif.",
+      name: "NACOULMA B. F. Doris",
+      role: "Classes préparatoires aux grandes écoles (CPGE)",
+      university: "CPGE Laâyoune 2022-2024",
+      content: "",
       rating: 5,
-      image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+      image: "/Doris.png"
+      // image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
     },
-    {
-      name: "Ouedraogo Darius",
-      role: "Étudiant en master",
-      university: "Université Ibn Tofail",
-      content: "Grâce aux événements organisés, j'ai pu rencontrer d'autres étudiants dans la même situation que moi, échanger sur nos expériences et surmonter ensemble les défis de la vie à l'étranger. Les sessions d'entraide, les ateliers professionnels et les activités culturelles m'ont non seulement permis d'élargir mon réseau, mais aussi de mieux comprendre la culture locale.",
-      rating: 5,
-      image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
-    },
-    {
-      name: "Sawadogo Marie",
-      role: "Étudiante en licence",
-      university: "Faculté des Sciences Laâyoune",
-      content: "L'AEBM m'a permis de ne pas me sentir seule dans cette grande ville. Les rencontres mensuelles sont un véritable réconfort et les conseils reçus m'ont aidée à mieux gérer mes études.",
-      rating: 5,
-      image: "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
-    },
-    {
-      name: "Compaoré Ibrahim",
-      role: "Étudiant en informatique",
-      university: "ENSA Laâyoune",
-      content: "Le soutien académique proposé par l'association m'a été d'une aide précieuse. Les séances de tutorat m'ont permis d'améliorer mes résultats et de créer des liens avec des étudiants plus expérimentés.",
-      rating: 5,
-      image: "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
-    }
+    // {
+    //   name: "Ouedraogo Darius",
+    //   role: "Étudiant en master",
+    //   university: "Université Ibn Tofail",
+    //   content: "Grâce aux événements organisés, j'ai pu rencontrer d'autres étudiants dans la même situation que moi, échanger sur nos expériences et surmonter ensemble les défis de la vie à l'étranger. Les sessions d'entraide, les ateliers professionnels et les activités culturelles m'ont non seulement permis d'élargir mon réseau, mais aussi de mieux comprendre la culture locale.",
+    //   rating: 5,
+    //   image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+    // },
+    // {
+    //   name: "Sawadogo Marie",
+    //   role: "Étudiante en licence",
+    //   university: "Faculté des Sciences Laâyoune",
+    //   content: "L'AEBM m'a permis de ne pas me sentir seule dans cette grande ville. Les rencontres mensuelles sont un véritable réconfort et les conseils reçus m'ont aidée à mieux gérer mes études.",
+    //   rating: 5,
+    //   image: "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+    // },
+    // {
+    //   name: "Compaoré Ibrahim",
+    //   role: "Étudiant en informatique",
+    //   university: "ENSA Laâyoune",
+    //   content: "Le soutien académique proposé par l'association m'a été d'une aide précieuse. Les séances de tutorat m'ont permis d'améliorer mes résultats et de créer des liens avec des étudiants plus expérimentés.",
+    //   rating: 5,
+    //   image: "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+    // }
   ];
 
   return (

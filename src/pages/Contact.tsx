@@ -264,7 +264,7 @@ const Contact = () => {
               },
               {
                 question: "Aidez-vous pour le logement ?",
-                answer: "Oui, nous organisons des ateliers pratiques pour aider nos membres dans leurs recherches de logement et nous mettons en relation les étudiants."
+                answer: "Oui, déjà assuré par l'AMCI. A Laâyoune, tous les étudiants reconnus par l'AMCI sont logés dans des résidences bien préparées avant leurs arrivés."
               },
               {
                 question: "Y a-t-il des frais d'adhésion ?",

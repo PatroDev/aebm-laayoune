@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { UserPlus, Check, AlertCircle, Upload, User, Mail, Phone, MapPin, GraduationCap, Calendar } from 'lucide-react';
+import { UserPlus, Check, User, Mail, Phone, MapPin, GraduationCap, Calendar } from 'lucide-react';
 
 const Inscription = () => {
   interface FormData {
@@ -75,11 +75,14 @@ const Inscription = () => {
   };
 
   const universities = [
-    'ENSA Laâyoune',
-    'Université Ibn Tofail',
-    'Faculté des Sciences Laâyoune',
+    'EST Laâyoune',
+    'ISPITS Laâyoune',
+    'CMC Laâyoune',
+    'ISTA Laâyoune',
+    'CPGE Laâyoune',
+    'Faculté de la médecine de Laâyoune',
     'Institut Supérieur de Commerce',
-    'École Supérieure de Technologie',
+    'École Supérieure de Technologie et de l\'Informatique',
     'Autre'
   ];
 

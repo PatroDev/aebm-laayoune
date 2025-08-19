@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Users, BookOpen, Calendar, Heart } from 'lucide-react';
+import Activities from './Activities';
+import Libraries from './Libraries';
+import Bureau from './Bureau';
 
 const Home = () => {
   const [currentGreeting, setCurrentGreeting] = useState(0);
@@ -159,14 +162,9 @@ const Home = () => {
           ></iframe>
         </div>
 
+        <Activities />
+
         {/* Les 1ers arrivés */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-10 border-t border-gray-200 pt-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Les initiateurs de L'AEBM LAÂYOUNE
-          </h2>
-          <p className="text-lg text-gray-700 mb-8">
-            Vidéo/Image de la première rencontre des membres fondateurs de l'AEBM LAÂYOUNE
-          </p>
           {/* <iframe 
             className="w-full h-[400px] md:h-[500px] rounded-lg shadow-lg"
             src="https://drive.google.com/file/d/157DnVTYk1X4HOYftwUsU9OLnKHnPJdHI/preview" //https://drive.google.com/file/d/157DnVTYk1X4HOYftwUsU9OLnKHnPJdHI/view?usp=drive_link 
@@ -174,10 +172,7 @@ const Home = () => {
             allowFullScreen
           ></iframe> */}
 
-          <p className="text-lg text-gray-700 mt-4">
-            <strong>Image des membres fondateurs :</strong>
-          </p>
-          <iframe
+          {/* <iframe
             src="https://drive.google.com/file/d/1ou8CHsIKuJuspBO580WtKdQ-QO2VkTsA/preview"
             // width="600"
             // height="400"
@@ -186,16 +181,49 @@ const Home = () => {
             allowFullScreen
             title="Bureau AEBM Laâyoune"
             className="w-full object-cover rounded-lg shadow-lg mb-8"
-          />
-
-          {/* <img
-            src="/Bureau.png" //https://drive.google.com/file/d/1ou8CHsIKuJuspBO580WtKdQ-QO2VkTsA/view?usp=drive_link
-            alt="Nouveau Bureau AEBM Laâyoune"
-            className="w-full object-cover rounded-lg shadow-lg mb-8"
           /> */}
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-10 border-t border-gray-200 pt-10">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            Les initiateurs de L'AEBM LAÂYOUNE
+          </h2>
+          <p className="text-lg text-gray-700 mb-8">
+            Vidéo/Image de la première rencontre des membres fondateurs de l'AEBM LAÂYOUNE
+          </p>
+
+          <p className="text-lg text-gray-700 mt-4 mb-8">
+            <strong>Image des membres fondateurs :</strong>
+          </p>
+
+          {/* Grid des cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { src: "/Bureau2022.png", title: "Bureau AEBM 2022" },
+              { src: "/Fondateurs.png", title: "Les 1ers membres de l'Association" },
+              { src: "/semaine-etudiant-burkinabe-du-sud2.png", title: "Semaine Étudiant Burkinabè du Sud" },
+              { src: "/Plage2.png", title: "Activité à la plage" },
+              { src: "/Jardin.png", title: "Rencontre au Jardin" },
+            ].map((img, idx) => (
+              <div 
+                key={idx} 
+                className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+              >
+                <img 
+                  src={img.src} 
+                  alt={img.title} 
+                  className="w-full h-96 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold text-gray-800">{img.title}</h3>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
-
+      
+      <Libraries />
+      <Bureau />
       {/* Nos activités preview */}
       <section className="py-16 bg-gradient-to-br from-blue-50 via-orange-100 to-teal-50 dark:from-green-900 dark:via-white dark:to-red-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

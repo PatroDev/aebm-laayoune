@@ -11,7 +11,16 @@ const Activities = () => {
       color: "green",
       frequency: "Chaque premier samedi du mois",
       location: "Centre culturel de Laâyoune",
-      image: "#" 
+      image: "/Sport.png" //https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop
+    },
+    {
+      title: "Semaine de l'étudiant Burkinabè du Sud",
+      description: "Organisation d'une semaine dédiée aux étudiants burkinabè du Sud pour promouvoir la culture, les traditions et les valeurs du Burkina Faso. Des activités variées sont proposées, allant des ateliers culturels aux événements sportifs.",
+      icon: Users,
+      color: "green",
+      frequency: "Chaque premier samedi du mois",
+      location: "Agadir, Laâyoune, etc.",
+      image: "/semaine-etudiant-burkinabe-du-sud.png" //https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop
     },
     {
       title: "Célébrations des fêtes nationales",
@@ -19,7 +28,7 @@ const Activities = () => {
       icon: Users,
       color: "red",
       frequency: "Chaque fête est célébrée particulièrement, par exemple : les fêtes réligieuses, les fêtes de l'indépendance, etc.",
-      location: "Place de la nation de Laâyoune",
+      location: "Grand jardin de Laâyoune",
       image: "/indep24.jpg" //
     },
     {
@@ -28,7 +37,7 @@ const Activities = () => {
       icon: Users,
       color: "red",
       frequency: "Chaque fête est célébrée particulièrement, par exemple : les fêtes réligieuses, les fêtes de l'indépendance, etc.",
-      location: "Place de la nation de Laâyoune",
+      location: "Grand jardin de Laâyoune",
       image: "/fete.jpg"
     },
     {
@@ -115,7 +124,24 @@ const Activities = () => {
               Des activités pensées pour répondre à tous vos besoins
             </p>
           </div>
-
+          
+          {/* Images de présentation */}
+          <div className="flex justify-center gap-8 mt-10">
+            <img
+              src="/Filles.png"
+              alt="Semaine Étudiant Burkinabè"
+              className="w-96 h-80 p-5 object-cover rounded shadow-lg animate-spin-slow"
+            />
+          </div>
+          <div className="flex justify-center gap-8 mt-10">
+            <img
+              src="/sport.jpg"
+              alt="Semaine Étudiant Burkinabè"
+              className="w-96 h-80 p-5 object-cover rounded shadow-lg animate-spin-slow"
+            />
+          </div>
+          
+          {/* Activities Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {activities.map((activity, index) => (
               <div key={index} className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">
@@ -152,13 +178,22 @@ const Activities = () => {
                       <span>{activity.location}</span>
                     </div>
                   </div>
-                  
+
+                  {/* Button to participate */}
                   <button className={`mt-6 w-full bg-${activity.color}-600 hover:bg-${activity.color}-700 text-white py-3 rounded-lg font-medium transition-colors duration-300`}>
                     Participer
                   </button>
                 </div>
               </div>
             ))}
+          </div>
+          {/* End of Activities Grid */} 
+          <div className="flex justify-center gap-8 mt-10">
+            <img
+              src="/Filles2.png"
+              alt="Activité à la plage"
+              className="w-96 h-76 p-5 rounded shadow-lg animate-spin-slow"
+            />
           </div>
         </div>
       </section>

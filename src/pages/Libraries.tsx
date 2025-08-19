@@ -4,53 +4,53 @@ import { BookOpen, Clock, MapPin, Wifi, Coffee, Users, Calendar, Phone } from 'l
 const Libraries = () => {
   const libraries = [
     {
-      name: "Bibliothèque Universitaire de Laâyoune",
-      address: "Campus Universitaire, Laâyoune",
-      phone: "+212 528-89-40-00",
-      hours: {
-        weekdays: "8h00 - 20h00",
-        weekend: "9h00 - 17h00"
-      },
-      services: ["Consultation libre", "Salle d'étude", "WiFi gratuit", "Photocopie"],
-      specialties: ["Sciences", "Économie", "Droit", "Littérature"],
-      image: "https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-    },
-    {
-      name: "Bibliothèque Municipale",
-      address: "Avenue Hassan II, Centre-ville",
-      phone: "+212 528-89-15-20",
+      name: "Laâyoune Learning Center",
+      address: "Quartier Al-Wifaq, Laâyoune",
+      phone: "+212 XXX-XXXXX",
       hours: {
         weekdays: "9h00 - 18h00",
-        weekend: "9h00 - 15h00"
+        weekend: "9h00 - 14h00"
       },
-      services: ["Prêt de livres", "Espace lecture", "WiFi gratuit", "Salle informatique"],
-      specialties: ["Culture générale", "Histoire", "Géographie", "Langues"],
-      image: "https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      services: ["Formation continue", "Espace lecture", "Ateliers de compétences", "Soutien scolaire"],
+      specialties: ["Développement personnel", "Langues", "Entrepreneuriat", "Technologies"],
+      image: "https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
     },
     {
-      name: "Centre de Documentation ENSA",
-      address: "École Nationale des Sciences Appliquées",
-      phone: "+212 528-89-42-15",
+      name: "Club d’Anglais IWS-Rahal",
+      address: "Centre Rahal, Avenue Smara, Laâyoune",
+      phone: "+212 XXX-XXXXX",
       hours: {
-        weekdays: "8h00 - 19h00",
-        weekend: "Fermé"
+        weekdays: "16h00 - 20h00",
+        weekend: "10h00 - 17h00"
       },
-      services: ["Documentation technique", "Bases de données", "WiFi haut débit", "Salles de travail"],
-      specialties: ["Ingénierie", "Informatique", "Mathématiques", "Physique"],
-      image: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      services: ["Cours d’anglais", "Clubs de conversation", "Préparation TOEFL/IELTS", "Événements culturels"],
+      specialties: ["Langue anglaise", "Communication", "Soft skills"],
+      image: "https://images.pexels.com/photos/4143800/pexels-photo-4143800.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
     },
-    {
-      name: "Bibliothèque de l'Institut Français",
-      address: "Rue Al Mouqaouama, Laâyoune",
-      phone: "+212 528-89-33-25",
-      hours: {
-        weekdays: "9h00 - 17h00",
-        weekend: "9h00 - 13h00"
-      },
-      services: ["Livres français", "Multimédia", "Espace culturel", "Cours de langue"],
-      specialties: ["Littérature française", "Sciences humaines", "Art", "Cinéma"],
-      image: "https://images.pexels.com/photos/1319854/pexels-photo-1319854.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-    }
+    // {
+    //   name: "Institut Français de Laâyoune",
+    //   address: "Rue Al Mouqaouama, Laâyoune",
+    //   phone: "+212 XXX-XXXXX",
+    //   hours: {
+    //     weekdays: "9h00 - 17h00",
+    //     weekend: "9h00 - 13h00"
+    //   },
+    //   services: ["Bibliothèque française", "Médiathèque", "Ateliers culturels", "Cours de langue"],
+    //   specialties: ["Littérature française", "Sciences humaines", "Arts", "Cinéma"],
+    //   image: "https://images.pexels.com/photos/1319854/pexels-photo-1319854.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+    // },
+    // {
+    //   name: "Centre de Ressources Universitaire de Laâyoune",
+    //   address: "Campus Universitaire, Route de Smara",
+    //   phone: "+212 XXX-XXXXX",
+    //   hours: {
+    //     weekdays: "8h30 - 18h30",
+    //     weekend: "Fermé"
+    //   },
+    //   services: ["Consultation libre", "Salle de travail en groupe", "Accès WiFi", "Documentation académique"],
+    //   specialties: ["Sciences", "Économie", "Droit", "Médecine"],
+    //   image: "https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+    // }
   ];
 
   const studyTips = [
@@ -208,7 +208,7 @@ const Libraries = () => {
               <div className="text-center">
                 <Calendar className="h-12 w-12 text-green-600 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Sessions régulières</h3>
-                <p className="text-gray-600">Tous les mardis et jeudis de 14h à 17h</p>
+                {/* <p className="text-gray-600">Tous les mardis et jeudis de 14h à 17h</p> */}
               </div>
               <div className="text-center">
                 <Users className="h-12 w-12 text-red-600 mx-auto mb-4" />

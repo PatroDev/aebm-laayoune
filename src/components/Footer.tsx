@@ -1,9 +1,66 @@
 // import React from 'react';
-import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Download } from 'lucide-react';
 
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
+      {/* Téléchargements */}
+      <section className="bg-gradient-to-r from-blue-50 to-indigo-100 py-16 px-6">
+      <div className="max-w-5xl mx-auto text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          📑 Ressources à télécharger
+        </h2>
+        <p className="text-lg text-gray-600 mb-12">
+          Accédez aux guides officiels pour mieux comprendre et utiliser la plateforme <br />
+          que vous soyez <span className="font-semibold">étudiant</span> ou <span className="font-semibold">développeur contributeur</span>.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Guide Étudiants */}
+          <a
+            href="/AEBM_Laayoune_Guide_Etudiants.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center p-6 rounded-2xl bg-white shadow-lg hover:shadow-xl hover:scale-105 transition transform"
+          >
+            <div>
+              <h3 className="text-xl font-semibold text-indigo-700 mb-2">
+                👥 Guide Étudiants
+              </h3>
+              <p className="text-gray-500 mb-4">
+                Découvrez le but, les objectifs et comment tirer parti du site.
+              </p>
+              <button className="inline-flex items-center bg-indigo-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-indigo-700">
+                <Download className="w-5 h-5 mr-2" />
+                Télécharger
+              </button>
+            </div>
+          </a>
+
+          {/* Guide Développeurs */}
+          <a
+            href="/AEBM_Laayoune_Guide_Developpeurs.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center p-6 rounded-2xl bg-white shadow-lg hover:shadow-xl hover:scale-105 transition transform"
+          >
+            <div>
+              <h3 className="text-xl font-semibold text-green-700 mb-2">
+                👨‍💻 Guide Développeurs
+              </h3>
+              <p className="text-gray-500 mb-4">
+                Instructions pour contribuer au projet et installer localement.
+              </p>
+              <button className="inline-flex items-center bg-green-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-green-700">
+                <Download className="w-5 h-5 mr-2" />
+                Télécharger
+              </button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo et description */}
@@ -83,10 +140,10 @@ const Footer = () => {
               <div>
                 <p className="text-gray-300 text-sm mb-2">Réseaux sociaux</p>
                 <div className="flex space-x-3">
-                  <a href="#" className="text-gray-300 hover:text-green-600 transition-colors">
+                  <a href="https://www.facebook.com/profile.php?id=100091566367885" className="text-gray-300 hover:text-green-600 transition-colors">
                     <Facebook className="h-6 w-6" />
                   </a>
-                  <a href="#" className="text-gray-300 hover:text-green-600 transition-colors">
+                  <a href="https://www.instagram.com/aebm.laayoune" className="text-gray-300 hover:text-green-600 transition-colors">
                     <Instagram className="h-6 w-6" />
                   </a>
                   <a href="#" className="text-gray-300 hover:text-green-600 transition-colors">
